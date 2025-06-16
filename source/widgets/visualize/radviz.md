@@ -20,7 +20,7 @@ The snapshot shown below shows a Radviz widget with a visualization of the datas
 
 ![](images/Radviz-stamped.png)
 
-Just like all point-based visualizations, this widget includes tools for intelligent data visualization (VizRank, see Leban et al. 2006) and an interface for explorative data analysis - selection of data points in visualization. Just like the [Scatter Plot](../visualize/scatterplot.md) and [FreeViz]((../visualize/freeviz.md)) widgets, it can be used to find a set of variables that would result in an interesting visualization. The Radviz graph above is according to this definition an example of a very good visualization, suggested by the VizRank's interface (*Suggest features* button).
+Just like all point-based visualizations, this widget includes tools for intelligent data visualization (VizRank, see Leban et al. 2006) and an interface for explorative data analysis - selection of data points in visualization. Just like the [Scatter Plot](../visualize/scatterplot.md) and [FreeViz](../visualize/freeviz.md) widgets, it can be used to find a set of variables that would result in an interesting visualization. The Radviz graph above is according to this definition an example of a very good visualization, suggested by the VizRank's interface (*Suggest features* button).
 
 Example
 -------
