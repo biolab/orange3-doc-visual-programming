@@ -17,7 +17,7 @@ Scatter plot visualization with exploratory analysis and intelligent data visual
 
 The **Scatter Plot** widget provides a 2-dimensional scatter plot visualization. The data is displayed as a collection of points, each having the value of the x-axis attribute determining the position on the horizontal axis and the value of the y-axis attribute determining the position on the vertical axis. Various properties of the graph, like color, size and shape of the points, point labels, maximum point size and jittering can be adjusted on the left side of the widget. A snapshot below shows the scatter plot of the *Iris* dataset with the coloring matching the class attribute.
 
-![](images/ScatterPlot-Iris-stamped.png)
+![](images/Scatterplot-Iris-stamped.png)
 
 1. Select the x and y attribute. Optimize your projection with **Find Informative Projections**. This feature scores attribute pairs by average classification accuracy/lowest R2 and returns the top scoring pair with a simultaneous visualization update. The buttons on the right enable showing confidence intervals.
 2. *Attributes*: Set the color of the displayed points (you will get colors for categorical values and blue-green-yellow points for numeric). Set label, shape and size to differentiate between points. *Label only selected points* allows you to select individual data instances and label only those.
@@ -33,7 +33,7 @@ The **Scatter Plot** widget provides a 2-dimensional scatter plot visualization.
 
 Here is an example of the **Scatter Plot** widget if the *Show color regions* and *Show regression line* boxes are ticked.
 
-![](images/ScatterPlot-ClassDensity.png)
+![](images/Scatterplot-ClassDensity.png)
 
 Intelligent Data Visualization
 ------------------------------
@@ -57,7 +57,7 @@ Selection can be used to manually defined subgroups in the data. Use Shift modif
 
 Signal data outputs a data table with an additional column that contains group indices.
 
-![](images/ScatterPlot-Selection.png)
+![](images/ScatterPlot-selection.png)
 
 Exploratory Data Analysis
 -------------------------
