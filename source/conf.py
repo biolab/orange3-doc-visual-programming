@@ -39,7 +39,13 @@ extensions = [
     "sphinx.ext.imgmath",
     "sphinx.ext.ifconfig",
     "sphinx.ext.viewcode",
-    "recommonmark",
+    "myst_parser",
+]
+
+myst_enable_extensions = [
+    "colon_fence",
+    "html_image",
+	"attrs_inline"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
