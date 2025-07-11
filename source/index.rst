@@ -136,6 +136,7 @@ Evaluate
    widgets/evaluate/testandscore
    widgets/evaluate/permutationplot
    widgets/evaluate/parameterfitter
+   widgets/evaluate/featureaspredictor
 
 
 .. toctree::
