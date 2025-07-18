@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="Corpus" qualified_name="orangecontrib.text.widgets.owcorpus.OWCorpus" project_name="Orange3-Text" version="" title="Corpus" position="(68.0, 65.0)" />
+		<node id="1" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="Python Script" position="(212.0, 65.0)" />
+		<node id="2" name="Word Cloud" qualified_name="orangecontrib.text.widgets.owwordcloud.OWWordCloud" project_name="Orange3-Text" version="" title="Word Cloud" position="(355.0, 65.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Corpus" sink_channel="Data" enabled="true" source_channel_id="corpus" sink_channel_id="data" />
+		<link id="1" source_node_id="1" sink_node_id="2" source_channel="Data" sink_channel="Corpus" enabled="true" source_channel_id="data" sink_channel_id="corpus" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVyAIAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfZmlsZXOUXZQojEov
+VXNlcnMvYWpkYS9vcmFuZ2Uvb3JhbmdlMy10ZXh0L29yYW5nZWNvbnRyaWIvdGV4dC9kYXRhc2V0
+cy9kZWVyd2VzdGVyLnRhYpSMEWJvb2stZXhjZXJwdHMudGFilIwYZ3JpbW0tdGFsZXMtc2VsZWN0
+ZWQudGFilIwYZWxlY3Rpb24tdHdlZXRzLTIwMTYudGFilIwXZnJpZW5kcy10cmFuc2NyaXB0cy50
+YWKUjAxhbmRlcnNlbi50YWKUZYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ0MsAAwAAAAACwwAA
+AUMAAASoAAAC2QAAAsMAAAFfAAAEqAAAAtkAAAAAAAAAAAeAAAACwwAAAV8AAASoAAAC2ZSMC19f
+dmVyc2lvbl9flEsCjBBjb250ZXh0X3NldHRpbmdzlF2UKIwVb3Jhbmdld2lkZ2V0LnNldHRpbmdz
+lIwHQ29udGV4dJSTlCmBlH2UKIwGdmFsdWVzlH2UKIwIbGFuZ3VhZ2WUjAJlbpRK/v///4aUjA50
+aXRsZV92YXJpYWJsZZSMBFRleHSUS2eGlIwKdXNlZF9hdHRyc5RdlGgaS2eGlGFK/f///4aUaAxL
+AnWMCmF0dHJpYnV0ZXOUfZSMCENhdGVnb3J5lEsBc4wFbWV0YXOUfZRoGksDc4wOZG9jdW1lbnRz
+X2hhc2iUihFwm8ZKOQk26DxFh4wz/7iSAGgWaBd1YmgRKYGUfZQoaBR9lChoFowCZW6USv7///+G
+lGgZTkr+////hpRoHF2UjARUZXh0lEtnhpRhSv3///+GlGgMSwJ1aCB9lIwIQ2F0ZWdvcnmUSwFz
+aCN9lGgtSwNzaCWKEaw1BwQZtAhLt7rkdtqukZcAaBZoKXViZXUu
+</properties>
+		<properties node_id="1" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00t\x00\x00\x01@\x00\x00\x03*\x00\x00\x03u\x00\x00\x00t\x00\x00\x01\\\x00\x00\x03*\x00\x00\x03u\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00t\x00\x00\x01\\\x00\x00\x03*\x00\x00\x03u', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}, {'name': 'custom-preprocessing.py', 'script': "print('Running Preprocessing ...')\ntokens = [doc.split(' ') for doc in in_data.documents]\nprint('Tokens:', tokens)\nout_data = in_data.copy()\nout_data.store_tokens(tokens)", 'filename': '/Users/ajda/Downloads/Scripts/documentation-examples/custom-preprocessing.py'}], 'scriptText': "print('Running Preprocessing ...')\ntokens = [doc.split(' ') for doc in in_data.documents]\nprint('Tokens:', tokens)\nout_data = in_data.copy()\nout_data.store_tokens(tokens)", 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xa8\x00\x00\x00h\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
+		<properties node_id="2" format="pickle">gASVtwAAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5
+lENCAdnQywADAAAAAAMPAAAAwwAABdsAAAKTAAADDwAAAN8AAAXbAAACkwAAAAAAAAAAB4AAAAMP
+AAAA3wAABdsAAAKTlIwOc2VsZWN0ZWRfd29yZHOUj5SMC3dvcmRzX2NvbG9ylIiMCndvcmRzX3Rp
+bHSUSwCMC19fdmVyc2lvbl9flEsBdS4=
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

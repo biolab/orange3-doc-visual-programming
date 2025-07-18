@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="File" position="(85.0, 88.0)" />
+		<node id="1" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="Python Script" position="(188.0, 88.0)" />
+		<node id="2" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(299.0, 88.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="1" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVBQkAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZQojB5v
+cmFuZ2V3aWRnZXQudXRpbHMuZmlsZWRpYWxvZ3OUjApSZWNlbnRQYXRolJOUKYGUfZQojAdhYnNw
+YXRolIwyL1VzZXJzL2FqZGEvb3JhbmdlL29yYW5nZTMvT3JhbmdlL2RhdGFzZXRzL3pvby50YWKU
+jAZwcmVmaXiUjA9zYW1wbGUtZGF0YXNldHOUjAdyZWxwYXRolIwHem9vLnRhYpSMBXRpdGxllIwA
+lIwFc2hlZXSUaBCMC2ZpbGVfZm9ybWF0lE51YmgGKYGUfZQoaAmMMy9Vc2Vycy9hamRhL29yYW5n
+ZS9vcmFuZ2UzL09yYW5nZS9kYXRhc2V0cy9pcmlzLnRhYpRoC2gMaA2MCGlyaXMudGFilGgPaBBo
+EWgQaBJOdWJoBimBlH2UKGgJjDYvVXNlcnMvYWpkYS9vcmFuZ2Uvb3JhbmdlMy9PcmFuZ2UvZGF0
+YXNldHMvdGl0YW5pYy50YWKUaAtoDGgNjAt0aXRhbmljLnRhYpRoD2gQaBFoEGgSTnViaAYpgZR9
+lChoCYw2L1VzZXJzL2FqZGEvb3JhbmdlL29yYW5nZTMvT3JhbmdlL2RhdGFzZXRzL2hvdXNpbmcu
+dGFilGgLaAxoDYwLaG91c2luZy50YWKUaA9oEGgRaBBoEk51YmgGKYGUfZQoaAmMPC9Vc2Vycy9h
+amRhL29yYW5nZS9vcmFuZ2UzL09yYW5nZS9kYXRhc2V0cy9oZWFydF9kaXNlYXNlLnRhYpRoC2gM
+aA2MEWhlYXJ0X2Rpc2Vhc2UudGFilGgPaBBoEWgQaBJOdWJoBimBlH2UKGgJjD0vVXNlcnMvYWpk
+YS9vcmFuZ2Uvb3JhbmdlMy9PcmFuZ2UvZGF0YXNldHMvYnJvd24tc2VsZWN0ZWQudGFilGgLaAxo
+DYwSYnJvd24tc2VsZWN0ZWQudGFilGgPaBBoEWgQaBJOdWJljAtyZWNlbnRfdXJsc5RdlIwTc2F2
+ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ0MsAAwAAAAACigAAALIAAAThAAADagAAAooAAADOAAAE4QAA
+A2oAAAAAAAAAAAeAAAACigAAAM4AAAThAAADapSMC3NoZWV0X25hbWVzlH2UjAZzb3VyY2WUSwCM
+A3VybJRoEIwNZG9tYWluX2VkaXRvcpR9lIwLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGlu
+Z3OUXZQojBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOU
+fZQojAl2YXJpYWJsZXOUXZRoL32UaDtdlChdlCiMBGhhaXKUjBRPcmFuZ2UuZGF0YS52YXJpYWJs
+ZZSMEERpc2NyZXRlVmFyaWFibGWUk5RLAIwEMCwgMZSIZV2UKIwIZmVhdGhlcnOUaENLAIwEMCwg
+MZSIZV2UKIwEZWdnc5RoQ0sAjAQwLCAxlIhlXZQojARtaWxrlGhDSwCMBDAsIDGUiGVdlCiMCGFp
+cmJvcm5llGhDSwCMBDAsIDGUiGVdlCiMB2FxdWF0aWOUaENLAIwEMCwgMZSIZV2UKIwIcHJlZGF0
+b3KUaENLAIwEMCwgMZSIZV2UKIwHdG9vdGhlZJRoQ0sAjAQwLCAxlIhlXZQojAhiYWNrYm9uZZRo
+Q0sAjAQwLCAxlIhlXZQojAhicmVhdGhlc5RoQ0sAjAQwLCAxlIhlXZQojAh2ZW5vbW91c5RoQ0sA
+jAQwLCAxlIhlXZQojARmaW5zlGhDSwCMBDAsIDGUiGVdlCiMBGxlZ3OUaENLAIwQMCwgMiwgNCwg
+NSwgNiwgOJSIZV2UKIwEdGFpbJRoQ0sAjAQwLCAxlIhlXZQojAhkb21lc3RpY5RoQ0sAjAQwLCAx
+lIhlXZQojAdjYXRzaXpllGhDSwCMBDAsIDGUiGVdlCiMBHR5cGWUaENLAYw8YW1waGliaWFuLCBi
+aXJkLCBmaXNoLCBpbnNlY3QsIGludmVydGVicmF0ZSwgbWFtbWFsLCByZXB0aWxllIllXZQojARu
+YW1llGhBjA5TdHJpbmdWYXJpYWJsZZSTlEsCaBCJZWVzaDFLAXWMCmF0dHJpYnV0ZXOUKGhAXZQo
+jAEwlIwBMZRlhpRoRl2UKGh7aHxlhpRoSV2UKGh7aHxlhpRoTF2UKGh7aHxlhpRoT12UKGh7aHxl
+hpRoUl2UKGh7aHxlhpRoVV2UKGh7aHxlhpRoWF2UKGh7aHxlhpRoW12UKGh7aHxlhpRoXl2UKGh7
+aHxlhpRoYV2UKGh7aHxlhpRoZF2UKGh7aHxlhpRoZ12UKGh7jAEylIwBNJSMATWUjAE2lIwBOJRl
+hpRoal2UKGh7aHxlhpRobV2UKGh7aHxlhpRocF2UKGh7aHxlhpR0lIwFbWV0YXOUaHZLA4aUhZSM
+CmNsYXNzX3ZhcnOUaHNdlCiMCWFtcGhpYmlhbpSMBGJpcmSUjARmaXNolIwGaW5zZWN0lIwMaW52
+ZXJ0ZWJyYXRllIwGbWFtbWFslIwHcmVwdGlsZZRlhpSFlIwSbW9kaWZpZWRfdmFyaWFibGVzlF2U
+dWJoNimBlH2UKGg5fZQoaDtdlGgvfZRoO12UKF2UKIwMc2VwYWwgbGVuZ3RolGhBjBJDb250aW51
+b3VzVmFyaWFibGWUk5RLAGgQiGVdlCiMC3NlcGFsIHdpZHRolGi7SwBoEIhlXZQojAxwZXRhbCBs
+ZW5ndGiUaLtLAGgQiGVdlCiMC3BldGFsIHdpZHRolGi7SwBoEIhlXZQojARpcmlzlGhDSwGMLEly
+aXMtc2V0b3NhLCBJcmlzLXZlcnNpY29sb3IsIElyaXMtdmlyZ2luaWNhlIllZXNoMUsBdWh5KGi5
+SwKGlGi9SwKGlGi/SwKGlGjBSwKGlHSUaKIpaKVow12UKIwLSXJpcy1zZXRvc2GUjA9JcmlzLXZl
+cnNpY29sb3KUjA5JcmlzLXZpcmdpbmljYZRlhpSFlGiwXZR1YmV1Lg==
+</properties>
+		<properties node_id="1" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xaf\x00\x00\x01y\x00\x00\x03\xa7\x00\x00\x03\x08\x00\x00\x00\xaf\x00\x00\x01\x95\x00\x00\x03\xa7\x00\x00\x03\x08\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\xaf\x00\x00\x01\x95\x00\x00\x03\xa7\x00\x00\x03\x08', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}, {'name': 'batch-filtering.py', 'script': 'from Orange.data import Domain, Table\ndomain = Domain([attr for attr in in_data.domain.attributes\n                 if attr.is_continuous or len(attr.values) &lt;= 5],\n                in_data.domain.class_vars)\nout_data = Table.from_table(domain, in_data)', 'filename': '/Users/ajda/Downloads/Scripts/documentation-examples/batch-filtering.py'}], 'scriptText': 'from Orange.data import Domain, Table\ndomain = Domain([attr for attr in in_data.domain.attributes\n                 if attr.is_continuous or len(attr.values) &lt;= 5],\n                in_data.domain.class_vars)\nout_data = Table.from_table(domain, in_data)', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xa8\x00\x00\x00h\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
+		<properties node_id="2" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xdd\x00\x00\x00X\x00\x00\x05\xfc\x00\x00\x02g\x00\x00\x02\xdd\x00\x00\x00t\x00\x00\x05\xfc\x00\x00\x02g\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02\xdd\x00\x00\x00t\x00\x00\x05\xfc\x00\x00\x02g', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
