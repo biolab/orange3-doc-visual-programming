@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="Distance File" qualified_name="Orange.widgets.unsupervised.owdistancefile.OWDistanceFile" project_name="Orange3" version="" title="Distance File" position="(88.0, 71.0)" />
+		<node id="1" name="Distance Matrix" qualified_name="Orange.widgets.unsupervised.owdistancematrix.OWDistanceMatrix" project_name="Orange3" version="" title="Distance Matrix" position="(212.0, 71.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Distances" sink_channel="Distances" enabled="true" source_channel_id="distances" sink_channel_id="distances" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVNwIAAAAAAAB9lCiMDmF1dG9fc3ltbWV0cmljlIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxy
+ZWNlbnRfcGF0aHOUXZQojB5vcmFuZ2V3aWRnZXQudXRpbHMuZmlsZWRpYWxvZ3OUjApSZWNlbnRQ
+YXRolJOUKYGUfZQojAdhYnNwYXRolIxsL1VzZXJzL2FqZGEvb3JhbmdlL29yYW5nZTMtZG9jLXZp
+c3VhbC1wcm9ncmFtbWluZy9zb3VyY2Uvd2lkZ2V0cy91bnN1cGVydmlzZWQvd29ya2Zsb3dzL2Rp
+c3RhbmNlLXNhbXBsZS54bHN4lIwGcHJlZml4lE6MB3JlbHBhdGiUTowFdGl0bGWUjACUjAVzaGVl
+dJRoD4wLZmlsZV9mb3JtYXSUTnViaAcpgZR9lChoCowoL1VzZXJzL2FqZGEvRGVza3RvcC9kaXN0
+YW5jZS1zYW1wbGUueGxzeJRoDE5oDU5oDmgPaBBoD2gRTnViaAcpgZR9lChoCow6L1VzZXJzL2Fq
+ZGEvb3JhbmdlL29yYW5nZTMvT3JhbmdlL2RhdGFzZXRzL2NvbmZlcmVuY2VzLmRzdJRoDE5oDU5o
+DmgPaBBoD2gRTnViZYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ0MsAAwAAAAAAeQAAATIAAAKB
+AAACFwAAAeYAAAGNAAAD7gAAAlYAAAAAAgAAAAeAAAAAeQAAAU4AAAKBAAACF5SMC19fdmVyc2lv
+bl9flEsBdS4=
+</properties>
+		<properties node_id="1" format="pickle">gASVUgEAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZl
+ZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAKjAAAAYAAABHYAAAFVAAACowAAAHwAAAR2AAAB
+VQAAAAAAAAAAB4AAAAKjAAAAfAAABHYAAAFVlIwLX192ZXJzaW9uX1+USwKMEGNvbnRleHRfc2V0
+dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVl
+c5R9lGgFSwJzjAVzaGFwZZRLA0sDhpSMCXN5bW1ldHJpY5SIjAthbm5vdGF0aW9uc5RdlCiMBE5v
+bmWUjAlFbnVtZXJhdGWUjAVsYWJlbJRljAphbm5vdGF0aW9ulIwFbGFiZWyUjAlzZWxlY3Rpb26U
+XZR1YmF1Lg==
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
