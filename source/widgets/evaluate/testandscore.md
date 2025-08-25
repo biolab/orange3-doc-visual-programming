@@ -22,7 +22,7 @@ The *Learner* signal has an uncommon property: it can be connected to more than 
 ![](images/TestAndScore-stamped.png)
 
 1. The widget supports various sampling methods.
-   - [Cross-validation](https://en.wikipedia.org/wiki/Cross-validation_\(statistics\)) splits the data into a given *number of folds* (usually 5 or 10). The algorithm is tested by holding out examples from one fold at a time; the model is induced from other folds and examples from the held out fold are classified. This is repeated for all the folds. The *Statified* option ensures the folds are similar in terms of class distribution.
+   - [Cross-validation](https://en.wikipedia.org/wiki/Cross-validation_\(statistics\)) splits the data into a given *number of folds* (usually 5 or 10). The algorithm is tested by holding out examples from one fold at a time; the model is induced from other folds and examples from the held out fold are classified. This is repeated for all the folds. The *Stratified* option ensures the folds are similar in terms of class distribution.
    - **Cross validation by feature** performs cross-validation but folds are defined by the selected categorical feature from meta-features.   
    - **Random sampling** randomly splits the data into the training and testing set in the given proportion (e.g. 70:30, see *Training set size*); the whole procedure is repeated for a specified number of times (*Repeat train/test*). *Statified* option ensures the folds are similar in terms of class distribution.
    - **Leave-one-out** is similar, but it holds out one instance at a time, inducing the model from all others and then classifying the held out instances. This method is obviously very stable, reliable... and very slow.

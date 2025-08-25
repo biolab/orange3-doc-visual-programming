@@ -21,7 +21,7 @@ The widget usually gets the evaluation results from [Test and Score](../evaluate
 ![](images/ConfusionMatrix-stamped.png)
 
 1. *Learners*: Choose a learning algorithm to display.
-2. *OUtput*: define what is sent to the output, namely predicted classes (*Predictions*) or their probabilities (*Probabilities*).
+2. *Output*: define what is sent to the output, namely predicted classes (*Predictions*) or their probabilities (*Probabilities*).
 3. The widget outputs every change if *Send Automatically* is ticked. If not, the user will need to click *Send Selected* to commit the changes.
 4. *Show*: select what data to see in the matrix.
    - **Number of instances** shows correctly and incorrectly classified instances numerically.

@@ -24,6 +24,6 @@ Here is a simple example on how to fit parameters using the **Parameter Fitter**
 
 Parameter Fitter enables observing performance for a varying number of trees. We set the range from 1 to 10, namely we will observe performance for every number of trees up to 10.
 
-We see there's a slight peak in AUC value for cross-validation at 3 trees, while 8 trees seem to be optimal overall.
+We see there's a slight peak in AUC value for cross-validation at 3 trees, while 8 trees seem to be optimal overall. (Note that this is just a toy example!)
 
 ![](images/ParameterFitter-Example.png)
