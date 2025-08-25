@@ -49,7 +49,7 @@ The **Stochastic Gradient Descent** widget uses [stochastic gradient descent](ht
    - *Initial learning rate*.
    - *Inverse scaling exponent*: learning rate decay.
    - *Number of iterations*: the number of passes through the training data.
-   - *Tolerance*: training will stop when current loss is within tolerance of best loss
+   - *Tolerance*: training will stop when current loss is within tolerance of best loss.
    - If *Shuffle data after each iteration* is on, the order of data instances is mixed after each pass.
    - If *Fixed seed for random shuffling* is on, the algorithm will use a fixed random seed and enable replicating the results.
 5. Press *Apply* to commit changes. Alternatively, tick the box on the left side of the *Apply* button and changes will be communicated automatically.

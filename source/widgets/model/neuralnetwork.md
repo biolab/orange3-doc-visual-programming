@@ -34,8 +34,7 @@ The **Neural Network** widget uses sklearn's [Multi-layer Perceptron algorithm](
    - *Replicable training*: if ticked, training results can be reproduced.
 
    Other parameters are set to [sklearn's defaults](http://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html).
-3. Cancel the 
-   When *Apply Automatically* is ticked, the widget will communicate changes automatically. Alternatively, click *Apply*.
+3. When *Apply Automatically* is ticked, the widget will communicate changes automatically. Alternatively, click *Apply*.
 
 Preprocessing
 -------------
