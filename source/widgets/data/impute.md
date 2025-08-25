@@ -34,6 +34,6 @@ Example
 
 To demonstrate how the **Impute** widget works, we selected the *heart_disease* dataset, which contains some missing values in the *major vessels colored* feature. We show those four attributes in [Data Table](../data/datatable.md).
 
-We used the **Impute** widget and selected the *Fixed valuer* to impute the missing values only for the *major vessels colored* attribute. In Data Table (imputed), we see how the question marks turned into 0, which was our choice for a fixed value.
+We used the **Impute** widget and selected the *Fixed values* to impute the missing values only for the *major vessels colored* attribute. In Data Table (imputed), we see how the question marks turned into 0, which was our choice for a fixed value.
 
 ![](images/Impute-Example.png)

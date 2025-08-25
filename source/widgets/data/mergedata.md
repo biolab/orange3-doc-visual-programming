@@ -30,7 +30,7 @@ Depending upon the merge types, selected features may be required to have unique
 Merging Types
 -------------
 
-##### Append Columns from Extra Data (left join)
+**Append Columns from Extra Data (left join)**
 
 Columns from the Extra Data are added to the Data. Instances with no matching rows will have missing values added.
 
@@ -42,7 +42,7 @@ For this type of merge, the values on the left (e.g. cities) may repeat (e.g. th
 
 ![](images/MergeData_Append.png)
 
-##### Find matching pairs of rows (inner join)
+**Find matching pairs of rows (inner join)**
 
 Only those rows that are matched will be present on the output, with the Extra Data columns appended. Rows without matches are removed.
 
@@ -52,7 +52,7 @@ For this type of merge, combinations of features on the left and on the right mu
 
 ![](images/MergeData_Intersection.png)
 
-##### Concatenate tables (outer join)
+**Concatenate tables (outer join)**
 
 The rows from both the Data and the Extra Data will be present on the output. Where rows cannot be matched, missing values will appear.
 
@@ -62,17 +62,17 @@ For this type of merge, combinations of features on the left and on the right mu
 
 ![](images/MergeData_Concatenate.png)
 
-##### Row index
+### Row index
 
 Data will be merged in the same order as they appear in the table. Row number 1 from the Data input will be joined with row number 1 from the Extra Data input. Row numbers are assigned by Orange based on the original order of the data instances.
 
-##### Instance ID
+### Instance ID
 
 This is a more complex option. Sometimes, data is transformed in the analysis and the domain is no longer the same. Nevertheless, the original row indices are still present in the background (Orange remembers them). In this case, one can merge on instance ID. For example, you transformed the data with [PCA](../unsupervised/PCA.md), visualized it in the [Scatter Plot](../visualize/scatterplot.md), selected some data instances and now you wish to see the original information of the selected subset. Connect the output of Scatter Plot to Merge Data, add the original data set as *Extra Data* and merge by *Instance ID*.
 
 ![](images/MergeData-InstanceID.png)
 
-##### Merge by two or more attributes
+### Merge by two or more attributes
 
 Sometimes our data instances are unique with respect to a combination of columns, not a single column. To merge by more than a single column, add the *Row matching* condition by pressing plus next to the matching condition. To remove it, press the x.
 

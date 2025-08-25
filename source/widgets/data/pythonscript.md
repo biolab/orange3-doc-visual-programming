@@ -45,7 +45,7 @@ Python Script widget is intended to extend functionalities for advanced users. C
 
 Documentation and additional scripts are available in the [orange-scripts](https://github.com/biolab/orange-scripts) repository.
 
-#### Batch filtering
+### Batch filtering
 
 One can, for example, do batch filtering by attributes. We used zoo.tab for the example and we filtered out all the attributes that have more than 5 discrete values. This in our case removed only 'leg' attribute, but imagine an example where one would have many such attributes.
 
@@ -58,7 +58,7 @@ One can, for example, do batch filtering by attributes. We used zoo.tab for the 
 
 ![](images/PythonScript-Example1.png)
 
-#### Rounding values
+### Rounding values
 
 The second example shows how to round all the values in a few lines of code. This time we used wine.tab and rounded all the values to whole numbers.
 
@@ -69,7 +69,7 @@ The second example shows how to round all the values in a few lines of code. Thi
 
 ![](images/PythonScript-Example2.png)
 
-#### Gaussian noise
+### Gaussian noise
 
 The third example introduces some Gaussian noise to the data. Again we make a copy of the input data, then walk through all the values with a double for loop and add random noise.
 
@@ -83,7 +83,7 @@ The third example introduces some Gaussian noise to the data. Again we make a co
 
 ![](images/PythonScript-Example3.png)
 
-#### Custom text preprocessing
+### Custom text preprocessing
 
 The final example uses Orange3-Text add-on. **Python Script** is very useful for custom preprocessing in text mining, extracting new features from strings, or utilizing advanced *nltk* or *gensim* functions. Below, we tokenized our input data from *deerwester.tab* by splitting them by whitespace.
 

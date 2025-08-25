@@ -36,7 +36,7 @@ We can observe the changes in a [Data Table](../data/datatable.md) widget.
 
 ![](images/Formula-Example.png)
 
-#### Python math language
+### Python math language
 
 If you are unfamiliar with Python math language, here's a quick introduction.
 Expressions can use the following operators:
