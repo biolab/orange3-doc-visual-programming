@@ -57,11 +57,9 @@ Data
    widgets/data/applydomain
    widgets/data/purgedomain
    widgets/data/rank
-   widgets/data/correlations
    widgets/data/color
    widgets/data/featurestatistics
    widgets/data/melt
-   widgets/data/neighbors
    widgets/data/unique
    widgets/data/groupby
 
@@ -150,6 +148,8 @@ Unsupervised
    :maxdepth: 1
 
    widgets/unsupervised/PCA
+   widgets/unsupervised/neighbors
+   widgets/unsupervised/correlations
    widgets/unsupervised/correspondenceanalysis
    widgets/unsupervised/distancemap
    widgets/unsupervised/distances
