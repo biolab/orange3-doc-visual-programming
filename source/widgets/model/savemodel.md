@@ -20,4 +20,4 @@ Example
 
 When you want to save a custom-set model, feed the data to the model (e.g. [Logistic Regression](../model/logisticregression.md)) and connect it to **Save Model**. Load it later into workflows with [Load Model](../model/loadmodel.md). Datasets used with **Load Model** have to contain compatible attributes.
 
-![](images/SaveModel-Example.png)
+![](images/SaveModel-example.png)
