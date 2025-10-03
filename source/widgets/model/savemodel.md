@@ -9,7 +9,7 @@ If the file is saved to the same directory as the workflow or in the subtree of 
 
 - Model: trained model
 
-![](images/SaveModel.png){width=50%}
+![](images/SaveModel.png){width="50%"}
 
 1. If *Autosave when receiving new data*, the previously saved model will be overwritten when input model is updated.
 2. *Save* the created model. The model will be saved to a pickled file.
