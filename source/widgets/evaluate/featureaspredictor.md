@@ -16,7 +16,7 @@ The widget is useful in situations where we would like to test the predictive po
 
 The target variable can be categorical or numeric. 
 
-<img src="../../_images/FeatureAsPredictor-stamped.png" width="50%"/>
+![](images/FeatureAsPredictor-stamped.png){width=244px}?
 
 
 1. Select the feature. The widget limits the selection as follows. 
