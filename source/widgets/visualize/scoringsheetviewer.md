@@ -28,6 +28,6 @@ In this example, we first sample the *heart_disease* data, with 70% used to trai
 
 ![](images/ScoringSheetViewer-Example.png)
 
-Let's analyze and learn to interpret the scoring sheet using the example. It features five decision parameters, with points ranging from -5 to 5. We have set the target class to '1,' indicating the 'presence' of heart disease. Positive-value decision parameters increase the risk of heart disease (i.e. reversable defect and asymptomatic chest pain), while those with negative values reduce it (i.e. ST by exercise higher than 1, no exercise induced angina, and few major vessels colored).
+Let's analyze and learn to interpret the scoring sheet using the example. It features five decision parameters, with points ranging from -5 to 5. We have set the target class to '1', indicating the 'presence' of heart disease. Positive-value decision parameters increase the risk of heart disease (i.e. reversable defect and asymptomatic chest pain), while those with negative values reduce it (i.e. ST by exercise higher than 1, no exercise induced angina, and few major vessels colored).
 
 Consider a selected instance from the Data Table widget. It has a 'exerc ind ang' attribute value of '0', which reduces the heart disease risk by 3 points. However, it also has the 'chest pain' attribute set to 'asymptomatic', increasing the risk by 4 points. This combination results in a total score of 2, corresponding to a 79.6% probability of having heart disease.
