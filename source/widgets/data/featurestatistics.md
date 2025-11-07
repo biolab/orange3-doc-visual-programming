@@ -1,5 +1,5 @@
-Feature Statistics
-==================
+Column Statistics
+=================
 
 Show basic statistics for data features.
 
@@ -12,11 +12,11 @@ Show basic statistics for data features.
 - Reduced data: table containing only selected features
 - Statistics: table containing statistics of the selected features
 
-The **Feature Statistics** widget provides a quick way to inspect and find interesting features in a given data set.
+The **Column Statistics** widget provides a quick way to inspect and find interesting features in a given data set.
 
 ![](images/feature_statistics-stamped.png)
 
-The Feature Statistics widget on the *heart-disease* data set.
+The Column Statistics widget on the *heart-disease* data set.
 
 1. The feature type - can be categorical, numeric, time and string.
 2. The name of the feature.
@@ -27,7 +27,7 @@ The Feature Statistics widget on the *heart-disease* data set.
 Example
 -------
 
-The Feature Statistics widget is most often used after the [File](../data/file.md) widget to inspect and find potentially interesting features in the given data set. In the following examples, we use the *heart-disease* data set.
+The Column Statistics widget is most often used after the [File](../data/file.md) widget to inspect and find potentially interesting features in the given data set. In the following examples, we use the *heart-disease* data set.
 
 ![](images/feature_statistics_workflow.png)
 
