@@ -22,8 +22,8 @@ The snapshot shows distances between columns in the *heart_disease* data, where 
 
 1. *Element sorting* arranges elements in the map by
    - None (lists instances as found in the dataset)
-   - **Clustering** (clusters data by similarity)
-   - **Clustering with ordered leaves** (maximizes the sum of similarities of adjacent elements)
+   - **Clustering** (clusters using average linkage)
+   - **Clustering with ordered leaves** (as above, but orders leaves to minimize distances between adjacent elements)
 2. *Colors*
    - **Colors** (select the color palette for your distance map)
    - **Range**: Define the low and high thresholds for the color palette (low for instances or attributes with low distances and high for instances or attributes with high distances).
